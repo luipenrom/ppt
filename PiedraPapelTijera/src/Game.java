@@ -30,9 +30,9 @@ public class Game {
 		if (who == MoveWords.EMPATE)
 			System.out.println("Es un empate\n");
 		else if (who == MoveWords.GANA)
-			System.out.println("Tu ganas!!! :-D \n");
+			System.out.println("Tu ganas, vas de Sheldon o qué!!! \n");
 		else
-			System.out.println("Tu pierdes!!! :-( \n");
+			System.out.println("Tu pierdes, BAZINGA!!! \n");
 	}
 
 	private void printMoves(Move player, Move computer) {
